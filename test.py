@@ -5,12 +5,6 @@ def square_root(x):
     if x < 0:
         raise NegativeNumberError("Ошибка: Корень из отрицательного числа не определен")
     return x ** 0.5
-
-
-num = int(input())
-result = square_root(num)
-print(result)
-
 try:
     num = int(input())
     result = square_root(num)
